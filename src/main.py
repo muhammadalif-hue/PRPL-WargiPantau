@@ -1,9 +1,13 @@
+##NOTEESSSSSSS! 
+# ini jadi file utama, nanti di run nya dari sini, biar bisa nyambungin semua file yang ada di src
+# kalo misalnya mau bikin fitur, dibikin function baru di file baru, terus di import ke main.py, biar rapih ajaa hehee
+
 from buatLaporan import buatLaporan, dataLaporan
 from lacakStatus import lacakStatus
 from adminAkses import adminAkses
 
 def main():
-    wargaAktif = "asep"
+    wargaAktif = "asep" ##ges ini warga aktif, nanti bisa diganti sesuai login user nyak, jujur masih bingung nyambunginnya sama data user ketika login
     
     while True:
         print("\nWargiPantau")
