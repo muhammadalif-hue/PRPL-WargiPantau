@@ -1,4 +1,4 @@
-from buatLaporan import dataLaporan, statusOptions
+from fitur.buatLaporan import dataLaporan, statusOptions
 
 def adminAkses():
     print("\n[ADMIN] Update Status Laporan")

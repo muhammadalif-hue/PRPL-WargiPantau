@@ -36,7 +36,7 @@ def buatLaporan(namaPelapor):
             "lokasi": lokasiKerusakan,
             "deskripsi": deskripsiKerusakan,
             "foto": lampiranFoto if lampiranFoto else "Tidak ada",
-            "status": "Laporan Masuk Boskuh",
+            "status": "Laporan Masuk, Wargi!",
             "tanggal": datetime.datetime.now().strftime("%Y-%m-%d %H:%M") #data waktu sekarang, biar tau kapan laporannya dikirim
         }
         dataLaporan.append(laporan)
