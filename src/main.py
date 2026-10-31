@@ -1,5 +1,5 @@
 ##NOTEESSSSSSS! 
-# ini jadi file utama, nanti di run nya dari sini, biar bisa nyambungin semua file yang ada di src
+# ini jadi file utama, nanti di run nya dari sini
 # kalo misalnya mau bikin fitur, dibikin function baru di file baru, terus di import ke main.py, biar rapih ajaa hehee
 
 from buatLaporan import buatLaporan, dataLaporan
