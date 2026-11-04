@@ -5,6 +5,7 @@
 from fitur.buatLaporan import buatLaporan, dataLaporan
 from fitur.lacakStatus import lacakStatus
 from fitur.adminAkses import adminAkses
+from fitur.verifikasiEskalasi import verifikasiEskalasi
 
 def main():
     wargaAktif = "asep" ##ges ini warga aktif, nanti bisa diganti sesuai login user nyak, jujur masih bingung nyambunginnya sama data user ketika login, karena beelum ada fitur login, jadi sementara ini warga aktifnya asep ajaa nyakk
@@ -14,9 +15,10 @@ def main():
         print("1. Buat Laporan Baru")
         print("2. Lacak Status Laporan Saya")
         print("3. [ADMIN] Update Status Laporan")
-        print("4. Keluar")
+        print("4. [ADMIN] Verifikasi & Eskalasi Laporan")
+        print("5. Keluar")
         
-        pilihanMenu = input("Pilih menu (1-4): ")
+        pilihanMenu = input("Pilih menu (1-5): ")
         
         if pilihanMenu == '1':
             buatLaporan(wargaAktif)
@@ -25,6 +27,8 @@ def main():
         elif pilihanMenu == '3':
             adminAkses()
         elif pilihanMenu == '4':
+            verifikasiEskalasi()
+        elif pilihanMenu == '5':
             print("\nTerima kasih telah menggunakan WargiPantau. Hatur nuhun sadayanaa!")
             break
         else:
