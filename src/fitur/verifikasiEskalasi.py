@@ -4,7 +4,7 @@ def verifikasiEskalasi():
     print("\n[VERIFIKASI & ESKALASI LAPORAN]")
     
     if not dataLaporan:
-        print("\nBelum ada laporan masuk ges.")
+        print("\nBelum ada laporan masuk.")
         return
     
     for x in dataLaporan:
