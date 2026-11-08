@@ -1,0 +1,5 @@
+id_pengguna,nik,nama_lengkap,nama_pengguna,kata_sandi,peran,wilayah,hak_akses,nomor_whatsapp,status_akun
+1,3273011001700001,Pendi Alamsyah,ketuarw,31f067aa986814751a07dc6a2333040aea893267b4fca243f49197f99ece1efe,Superadmin,,semua,081200000001,Aktif
+2,3273011505850002,Budi Santoso,admin_rt01,79d41255e7345ae62d653b90180a651fc0239ea07eef07d3a4b48791e7513d56,Admin/Pengelola,1,verifikasi;eskalasi;update_status,081200000002,Aktif
+3,3273012002900003,Siti Aminah,siti,71c6e47969179c1e831fcf41f4979a3557290a65d7925e6760cfd316389f0729,Pelapor,1,,081200000003,Aktif
+4,3273012503950004,Dewi Lestari,dewi,452471a1b359ca017ed315f3e673d2a45210c26f62d06798b60c9eceae680165,Pelapor,2,,081200000004,Aktif
