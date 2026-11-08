@@ -32,7 +32,7 @@ def siapkanDataLogin():
 
     if not os.path.isfile(berkasPengguna):
         tulisCsv(berkasPengguna, kolomPengguna, [
-            {"id_pengguna": "1", "nik": "3273011001700001", "nama_lengkap": "Hendra Wijaya",
+            {"id_pengguna": "1", "nik": "3273011001700001", "nama_lengkap": "Pendi Alamsyah",
              "nama_pengguna": "ketuarw", "kata_sandi": enkripsiSandi("rw12345"), "peran": "Superadmin",
              "wilayah": "", "hak_akses": "semua", "nomor_whatsapp": "081200000001", "status_akun": "Aktif"},
             {"id_pengguna": "2", "nik": "3273011505850002", "nama_lengkap": "Budi Santoso",
