@@ -1,4 +1,3 @@
-#Fitur: Riwayat perbaikan dan arsip digital
 from buatLaporan import dataLaporan, statusOptions
 from riwayat import dataRiwayat
 
