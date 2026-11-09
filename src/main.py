@@ -7,6 +7,7 @@ from fitur.buatLaporan import buatLaporan, dataLaporan
 from fitur.lacakStatus import lacakStatus
 from fitur.adminAkses import adminAkses
 from fitur.verifikasiEskalasi import verifikasiEskalasi
+from fitur.arsip import menuArsip
 
 def menuUtama(pengguna):
     # wargaAktif sekarang diambil dari hasil login (bukan "asep" lagi)
@@ -23,9 +24,10 @@ def menuUtama(pengguna):
         print("2. Lacak Status Laporan Saya")
         print("3. [ADMIN] Update Status Laporan")
         print("4. [ADMIN] Verifikasi & Eskalasi Laporan")
-        print("5. Logout")
+        print("5. Arsip dan Riwayat")
+        print("6. Logout")
         
-        pilihanMenu = input("Pilih menu (1-5): ")
+        pilihanMenu = input("Pilih menu (1-6): ")
         
         if pilihanMenu == '1':
             if adalahPelapor:
@@ -48,11 +50,13 @@ def menuUtama(pengguna):
             else:
                 print("\n[DITOLAK] Menu ini hanya untuk Admin/Pengelola dan Superadmin.")
         elif pilihanMenu == '5':
+            menuArsip(pengguna)
+        elif pilihanMenu == '6':
             print("\nAnda telah logout.")
             break
         else:
             print("\nPilihan tidak valid. Silakan coba lagi.")
-
+            
 def main():
     siapkanDataLogin()
     
